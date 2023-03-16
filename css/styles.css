@@ -2,16 +2,35 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+h1 {
+  font-size:;
+  text-align: center ;
+  width: 50%;
+  display: block;
+  margin: auto;
+  background-color: aquamarine;
+}
+
 .cat {
   float: center;
   width: 50%;
   display: block;
   margin: auto;
-  padding:20px;
-  border:black;
+  padding: 25px;
+  border: dashed pink;
   border-width: 5px;
   background-color: purple;
   box-sizing: border-box;
+}
+
+.cat h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+
+.cat ul {
+  font-stretch: semi-expanded;
+  color: whitesmoke;
 }
 
 .pup {
@@ -26,9 +45,20 @@ body {
   box-sizing: border-box;
 }
 
+.pup h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+
+.pup ul {
+  font-weight:bold;
+}
+
+
 .centered-image {
   margin: auto;
   width: 50%;
   height: auto;
   display: block;
 }
+
