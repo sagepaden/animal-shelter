@@ -62,3 +62,26 @@ h1 {
   display: block;
 }
 
+@media screen and (max-width: 500px) {
+  .cat {
+    background-color: yellowgreen;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width:900px) {
+  .cat {
+    background-color: hotpink;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .pup {
+    background-color: dodgerblue;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  .pup {
+    background-color: skyblue;
+  }
+}
