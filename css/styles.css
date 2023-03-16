@@ -3,22 +3,32 @@ body {
 }
 
 .cat {
+  float: center;
   width: 50%;
+  display: block;
+  margin: auto;
   padding:20px;
   border:black;
-  border-width: 1px;
+  border-width: 5px;
   background-color: purple;
-  margin-bottom: 10px;
   box-sizing: border-box;
 }
 
 .pup {
-  float: right;
-  width: 70%;
+  float: center;
+  width: 50%;
+  display: block;
+  margin: auto;
   padding: 25px;
   border: dashed hotpink;
-  border-width: 30px;
+  border-width: 5px;
   background-color: lightgoldenrodyellow;
-  margin-bottom: 20px;
   box-sizing: border-box;
+}
+
+.centered-image {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
 }
